@@ -1,0 +1,84 @@
+#u0 {
+    border-width:0px;
+    position:absolute;
+    left:150px;
+    top:35px;
+    display:flex;
+  }
+
+  #u1 {
+    border-width:0px;
+    position:absolute;
+    left:120px;
+    top:110px;
+    display:flex;
+  }
+
+  #u2{
+    position:absolute;
+    left:700px;
+    top:160px;
+    width: 300px;
+    height:350px;
+    display:flex;
+
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+  }
+
+  #u2 .t0{
+      font-size: 14px;
+      color: dimgrey;
+  }
+  #u2 .t1{
+      margin-left:130px;
+      font-size: 12px;
+      color: dimgrey;
+  }
+
+  #u3{
+    position:absolute;
+    left: 20px;
+    width: 220px;
+    top: 25px;
+    left:0px ;
+  }
+
+  #u3 .u30 {
+      width: 270px;
+      height: 28px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  #u3 .u31{
+    width: 270px;
+    height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+  }
+  #u3 .u32{
+      position: relative;
+      left: 223px;
+      font-size: 12px;
+      color:red;
+  }
+  #u3 .u33{
+      margin-top: 25px;
+      width: 270px;
+      height: 34px;
+      background-color:rgba(221, 47, 47, 0.897);
+      color: aliceblue;
+      font-weight:bold;
+      font-size: 15px;
+      outline: none;/* 去点击之后边框 */
+      border: 0px;/*去边框 */
+  }
+#u4{
+    font-size: 14px;
+    color: dimgrey;
+}
+#u5{
+    font-size: 14px;
+    color: red;
+}
