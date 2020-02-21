@@ -164,3 +164,6 @@ user-select: none;
   text-align: center;
   font-size: 12px;
 }
+#xy,#zc{
+  cursor:pointer;
+}
