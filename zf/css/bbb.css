@@ -5,6 +5,10 @@
     top:5px;
     width:150px;
     height:50px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
   }
 #u1{
    height: 2px;
@@ -17,7 +21,7 @@
 #u2 {
     position:absolute;
     left:150px;
-    top:89px;
+    top:110px;
     width:100px;
     height:270px;
     display:flex;
@@ -45,12 +49,12 @@
   #t4{
     position:absolute;
     right: 0px;
-    margin-top: 180px;
+    margin-top: 200px;
   }
   #u3 {
     position:absolute;
     left:260px;
-    top:83px;
+    top:100px;
     width:400px;
     height:270px;
     display:flex;
@@ -66,19 +70,19 @@
   #u3 .u32{
     position:absolute;
     left:0px;
-    top:68px;
+    top:74px;
     display:flex;
   }
   #u3 .u33{
     position:absolute;
     left:0px;
-    top:118px;
+    top:124px;
     display:flex;
   }
   #u3 .u34{
     position:absolute;
     left:0px;
-    top:175px;
+    top:200px;
     display:flex;
   }
 
@@ -89,15 +93,15 @@
       /* outline:0; 选中轮廓去掉 */
       outline-color: red;
       border-width:1px;
-      border-color:  rgb(136, 132, 132);
+      border-color:  rgba(136, 132, 132, 0.699);
       border-style: solid;
-      height:30px;
+      height:32px;
       width: 270px; 
   }
   #u3 .u35{
     position:absolute;
     left:0px;
-    top:220px;
+    top:253px;
     display:flex;
   }
   .b{
@@ -117,22 +121,24 @@
   #u4{
       position: absolute;
       left: 255px;
-      top: 350px;
+      top: 405px;
       font-size: 13px;
       color: #F1494F;
   }
   #u5{
       position: relative;
       left: 0px;
-      top: 40px;
+      top: 45px;
       height: 20px;
       width: 140px;
-      font-size: 11px;
       background:rgb(241, 241, 241);
       border: 1px solid rgb(218, 214, 214);
-      letter-spacing: 2px; /*字体间距*/
+      letter-spacing: 1px; /*字体间距*/
       cursor:pointer; /* 鼠标样式 */
       outline: none;
+      border-bottom-color: rgba(141, 139, 136, 0.61);
+      border-radius: 2px;
+      font-size: 12px;
   }
   #u5:hover{ /*停留时样式*/
       background-color: rgb(255, 255, 255);
@@ -140,4 +146,21 @@
 #u5:active{/*点击时样式*/
     background-color: darkgrey;
     border:0px;
+}
+.u36{
+  position: absolute;
+  top: 168px;
+  height: 25px;
+  width: 276px;
+  /* background-color: #F1494F; */
+}
+.u360{
+  background-color: rgba(136, 132, 132, 0.13);
+  height: 20px;
+  width: 88px;
+  margin-right: 4px;
+  float:left;
+  color:white;
+  text-align: center;
+  font-size: 12px;
 }
