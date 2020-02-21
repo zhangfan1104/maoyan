@@ -8,27 +8,80 @@
 </head>
 <body>
     <div id="u0">
-        <img width="220" height="50" src="tp/dy.png">
+        <img width="243px" src="tp/dy.png">
     </div>
     <div id="u1">
         <img src="tp/下载.png">
     </div>
 
     <div id="u2">
-            <span class="t0">账号登陆</span>
-            <span class="t1">手机动态码登录</span>
+            <span class="t0">账号登陆</span> 
+            <span><img src="tp/tb3.png" id="tpp"></span>
+            <span class="t1"  onclick="aaa()" id="aa" >手机动态码登录</span>
+            
+
         <div id="u3">
             <from>
-                <input class="u30" type="text" placeholder="手机号"/>
-                <input class="u31" type="password" placeholder="密码"/>
+                <div id="kk1">
+                    <img src="tp/tb1.png" id="tb1">
+                    <input class="u30" type="text" onfocus="f()" onblur="b()" placeholder="手机号"/>
+                </div>
+               <div id="kk2">
+                <img src="tp/tb2.png" id="tb2">
+                <input class="u31" id="mm" type="password" onfocus="ff()" onblur="bb()" placeholder="密码"/>
+                <input id="dtm" type="button" style="display:none;" value="获取手机动态码">
+               </div>
+                
                 <div class="u32">忘记密码?</div>
                 <input class="u33" type="submit" value="登录"/>
             </from>
-           <span id="u4">还没有账号？</span>
-          <a href="zhuce.html" style="text-decoration: none"> <span id="u5">免费注册</span> </a>
+            <div id="cc" style="display: '';">
+                <span id="u4">还没有账号？</span>
+                <a href="zhuce.html" style="text-decoration: none"> <span id="u5">免费注册</span> </a>
+            </div>
         </div>
   
     </div>
-    
+    <script>
+        function aaa(){
+            var sp = document.getElementById("aa");
+            var a = sp.childNodes[0].nodeValue;
+
+        if(a == "手机动态码登录"){
+            sp.innerHTML = "普通方式登录"
+            document.getElementById("tpp").src = "tp/tb4.png";
+
+            document.getElementById("mm").setAttribute("placeholder","动态码");
+
+            document.getElementById("cc").style.display="none";//隐藏
+            document.getElementById("dtm").style.display='';//显示
+
+            
+        }else{
+            sp.innerHTML = "手机动态码登录"
+            document.getElementById("tpp").src = "tp/tb3.png";
+            document.getElementById("mm").setAttribute("placeholder","密码");
+            document.getElementById("cc").style.display='';//显示
+            document.getElementById("dtm").style.display="none";//隐藏
+           
+        }
+        }
+
+
+        function f(){
+            document.getElementById("kk1").style.borderColor = "red";
+        }
+        function b(){
+            document.getElementById("kk1").style.borderColor = "rgba(66, 66, 66, 0.295)";
+        }
+        function ff(){
+            document.getElementById("kk2").style.borderColor = "red";
+        }
+        function bb(){
+            document.getElementById("kk2").style.borderColor = "rgba(66, 66, 66, 0.295)";
+        }
+
+
+    </script>
 </body>
 </html>

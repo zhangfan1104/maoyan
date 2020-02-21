@@ -1,26 +1,24 @@
 #u0 {
-    border-width:0px;
     position:absolute;
-    left:150px;
-    top:35px;
+    left:147px;
+    top:37px;
     display:flex;
   }
 
   #u1 {
     border-width:0px;
     position:absolute;
-    left:120px;
-    top:110px;
+    left:150px;
+    top:115px;
     display:flex;
   }
 
   #u2{
     position:absolute;
-    left:700px;
-    top:160px;
-    width: 300px;
+    left:750px;
+    top:170px;
+    width: 270px;
     height:350px;
-    display:flex;
 
     /* border-width: 1px;
     border-color: black;
@@ -28,13 +26,16 @@
   }
 
   #u2 .t0{
+      float: left;
       font-size: 14px;
       color: dimgrey;
   }
   #u2 .t1{
-      margin-left:130px;
+      float: right;
       font-size: 12px;
       color: dimgrey;
+      cursor:pointer /*  鼠标移动到这段文字上，就看到鼠标样式改变 */
+
   }
 
   #u3{
@@ -46,25 +47,28 @@
   }
 
   #u3 .u30 {
-      width: 270px;
-      height: 28px;
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-left: 36px;
+      margin-top: 1px;
+      width: 228px;
+      height: 26px;
+      border: 0px;
   }
   #u3 .u31{
-    width: 270px;
-    height: 28px;
-    margin-top: 10px;
-    margin-bottom: 10px; 
+    margin-left: 36px;
+      margin-top: 1px;
+    width: 228px;
+    height: 26px; 
+    border: 0px;
   }
   #u3 .u32{
       position: relative;
-      left: 223px;
+      margin-top: 10px;
+      left: 210px;
       font-size: 12px;
       color:red;
   }
   #u3 .u33{
-      margin-top: 25px;
+      margin-top: 20px;
       width: 270px;
       height: 34px;
       background-color:rgba(221, 47, 47, 0.897);
@@ -81,4 +85,77 @@
 #u5{
     font-size: 14px;
     color: red;
+}
+#cc{
+  margin-top: 5px;
+}
+
+#dtm{
+  position: absolute;
+  margin-top: 1px;
+  height: 26px;
+  left: 168px;
+  font-size: 12px;
+  background-color:white;
+  border: 0px;
+  color: rgb(128, 122, 122);
+  outline: none;/* 去点击之后边框 */
+  cursor:pointer; /* 鼠标样式 */
+}
+
+.u30:active{
+  outline: none; 
+}
+.u30:focus{ /* 获取焦点*/
+  outline: none; /*去除选中状态边框*/
+}
+.u31:active{
+  outline: none; 
+}
+.u31:focus{ /* 获取焦点*/
+  outline: none; /*去除选中状态边框*/
+}
+#tb1{
+  position: absolute;
+  height: 28px;
+  margin-top: 1px;
+  
+
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+#kk1{
+  margin-top: 5px;
+  border: 1px solid  rgba(66, 66, 66, 0.295);
+  width: 265px;
+  height: 32px;
+}
+
+#tb2{
+  position: absolute;
+  height: 28px;
+  margin-top: 1px;
+  
+
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+#kk2{
+  border: 1px solid  rgba(66, 66, 66, 0.295);
+  margin-top: 20px;
+  width: 265px;
+  height: 32px;
+}
+#tpp{
+  position: relative;
+  float: right;
+  width: 15px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
