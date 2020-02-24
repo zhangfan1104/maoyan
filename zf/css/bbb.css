@@ -76,7 +76,7 @@ user-select: none;
   #u3 .u33{
     position:absolute;
     left:0px;
-    top:124px;
+    top:128px;
     display:flex;
   }
   #u3 .u34{
@@ -90,14 +90,15 @@ user-select: none;
       -webkit-appearance:none;
       -moz-appearance: none;
       /* 输入框的默认样式去掉 */
-      /* outline:0; 选中轮廓去掉 */
-      outline-color: red;
+      outline:0; /* 选中轮廓去掉  */
       border-width:1px;
       border-color:  rgba(136, 132, 132, 0.699);
       border-style: solid;
       height:32px;
       width: 270px; 
+      background-color: white;
   }
+ 
   #u3 .u35{
     position:absolute;
     left:0px;
@@ -149,7 +150,7 @@ user-select: none;
 }
 .u36{
   position: absolute;
-  top: 168px;
+  top: 170px;
   height: 25px;
   width: 276px;
   /* background-color: #F1494F; */
@@ -166,4 +167,138 @@ user-select: none;
 }
 #xy,#zc{
   cursor:pointer;
+}
+
+#r{
+  position: absolute;
+  top: 5px;
+  left: 280px;
+  width: 160px;
+  text-align: left;
+  line-height: 0px;
+  font-size: 12px;
+  color:rgb(151, 148, 148);
+}
+#r1{
+  position: absolute;
+  top: 5px;
+  left: 280px;
+}
+#r2{
+  position: absolute;
+  top: 80px;
+  left: 280px;
+}#r3{
+  position: absolute;
+  top: 130px;
+  left: 280px;
+}#r4{
+  position: absolute;
+  top: 205px;
+  left: 280px;
+}
+#f1{
+  position: absolute;
+  top: 5px;
+  left: 280px;
+}
+#f2{
+  position: absolute;
+  top: 80px;
+  left: 280px;
+}
+#f3{
+  position: absolute;
+  top: 130px;
+  left: 280px;
+}
+#f4{
+  position: absolute;
+  top: 205px;
+  left: 280px;
+}
+#f5{
+  position: absolute;
+  top: 205px;
+  left: 280px;
+}
+#f6{
+  position: absolute;
+  top: 130px;
+  left: 280px;
+}
+
+div#f1 span{
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  width: 200px;
+  color: rgba(94, 92, 92, 0.849);
+}
+div#f2 span{
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  width: 200px;
+  color: rgba(94, 92, 92, 0.849);
+}
+div#f3 span{
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  width: 200px;
+  color: rgba(94, 92, 92, 0.849);
+}
+div#f4 span{
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  width: 200px;
+  color: rgba(94, 92, 92, 0.849);
+}
+div#f5 span{
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  width: 200px;
+  color: rgba(94, 92, 92, 0.849);
+}
+div#f6 span{
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  width: 200px;
+  color: rgba(94, 92, 92, 0.849);
+}
+
+.u37{
+  position: absolute;
+  top: 170px;
+  height: 25px;
+  width: 276px;
+  /* background-color: #F1494F; */
+}
+.u361{
+  height: 20px;
+  margin-right: 4px;
+  float:left;
+  text-align: center;
+  font-size: 12px;
+}
+#fir{
+  color:rgba(255, 255, 255, 0);
+  width: 0px;
+  left: 0px;
+}
+#sed{
+  color:rgba(255, 255, 255, 0);
+  position: absolute;
+  width: 0px;
+  left: 92px;
+}
+#tir{
+  color:rgba(255, 255, 255, 0);
+  position: absolute;
+  width: 0px;  
+  left: 184px;
 }
