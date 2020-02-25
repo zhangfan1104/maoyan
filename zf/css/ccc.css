@@ -14,23 +14,25 @@
     border-right: 1px solid  rgba(180, 187, 196, 0.527);
     background-color: rgba(180, 176, 176, 0.185);
 }
-#u2{
+.u2{
     overflow: hidden;
 }
 #u1 .t0{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 #u1 .t1{
     font-size: 18px;
-    font-weight: 350;
+    font-weight: 400;
     text-align: center;
-    margin-bottom: 10px;
+    line-height:36px;
+    height: 40px;
+    cursor: pointer;
 }
-#u2 .t0{
+.u2 .t0{
     font-size: 18px;
     color:rgb(236, 37, 37);
     height: 60px;
@@ -120,4 +122,31 @@
     font-weight: 540;
     color: rgb(255, 255, 255);
     background-color: rgb(248, 47, 47);
+}
+
+.red{
+    background-color: rgb(243, 50, 50);
+    color: white; 
+}
+
+#d1{
+    position: absolute;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+#d1{
+    border:  1px solid rgba(180, 187, 196, 0.527);
+    height:50px;
+    width: 870px;
+    background-color: rgba(184, 184, 184, 0.219);
+}
+#d2{
+    margin-top: 41px;
+    height: 120px;
+    width: 870px;
+    border-left:  1px solid rgba(180, 187, 196, 0.527);
+    border-right:  1px solid rgba(180, 187, 196, 0.527);
+    border-bottom:  1px solid rgba(180, 187, 196, 0.527);
+
 }
