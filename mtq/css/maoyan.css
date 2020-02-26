@@ -1,0 +1,110 @@
+        html,
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a {
+            color: #ccc;
+            text-decoration: none
+        }
+
+        a:hover {
+            color: rgb(239, 66, 56);
+            text-decoration: none
+        }
+
+        .block {
+            border-bottom: 1px dotted #e5e5e5;
+            padding: 10px;
+        }
+
+        .block>.left {
+            float: left;
+            padding-right: 20px;
+            ;
+        }
+
+        .block:last-child {
+            border: 0px;
+        }
+
+        .block .right span {
+            border-radius: 14px;
+            padding: 3px 9px;
+            display: inline-block;
+            margin-left: 12px;
+        }
+
+        .block .right span.active {
+            background: #f34d41;
+    color: #fff;
+        }
+
+        footer {
+            height: 200px;
+            background: rgb(38, 36, 38);
+            color: #ccc
+        }
+
+        .footer-bar {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container>h2 {
+            font-size: 18px;
+            color: #333;
+            border-left: 4px solid #f03d37;
+            padding-left: 6px;
+            line-height: 18px;
+            margin: 0;
+        }
+
+        .main-list ul {
+            padding: 10px 0px;
+            width: 100%;
+        }
+
+        .main-list ul li {
+            list-style: none;
+            border-bottom: 1px dotted #e5e5e5;
+        }
+
+        .main-list ul li div:first-child {
+            float: left;
+            padding: 20px 0px
+        }
+
+        .main-list ul li div:first-child {
+            float: left;
+            padding: 20px 0px
+        }
+
+        .main-list ul li div:first-child span:first-child {
+            font-size: 16px;
+            line-height: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .main-list ul li div:first-child span:last-child {
+            font-size: 14px;
+            line-height: 14px;
+            color: #999;
+        }
+
+        .main-list ul li div:nth-child(2) {
+            float: right;
+            line-height: 80px;
+            height: 80px;
+        }
+
+        .main-list ul li div:nth-child(2) span {
+            padding: 10px;
+            background: #f03d37;
+            color: white;
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+        }
