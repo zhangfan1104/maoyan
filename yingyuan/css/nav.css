@@ -165,7 +165,12 @@ a{
     cursor:pointer;
     /*right: 40px;*/
 }
-
+.search:active{
+    outline: none;
+}
+.search:focus{
+    outline: none;
+}
 .user-info {
     width: 78px;
     height: 80px;

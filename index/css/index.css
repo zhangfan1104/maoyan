@@ -149,7 +149,12 @@ a{
     position: relative;
     margin-top: 20px;
 }
-
+.search:active{
+    outline: none;
+}
+.search:focus{
+    outline: none;
+}
 .submit {
     width: 40px;
     height: 40px;

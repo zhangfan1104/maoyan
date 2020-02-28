@@ -251,6 +251,12 @@ a.aa:hover{
     color: rgb(231, 43, 43);
     font-size: 18px;
 }
+.search:active{
+    outline: none;
+}
+.search:focus{
+    outline: none;
+}
 .container {
     width: 1200px;
     /*height: 2648px;*/
