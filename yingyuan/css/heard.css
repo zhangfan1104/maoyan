@@ -1,20 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
 .header {
-    height: 80px;
-    width: 100%;
-    /*background-color: red;*/
-    display: flex;
-    justify-content: center;
     position: fixed;
-    background-color: white;
-    margin-top: -80px;
-    z-index: 15;
+    height: 80px;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    min-width: 1200px;
+    background-color: #fff;
+    border-bottom: 1px solid #d8d8d8;
 }
 /*.headerfixed{*/
 /*    position: fixed;*/
@@ -22,11 +14,11 @@ a{
 .header-inner {
     display: flex;
     flex-direction: row;
-
 }
 
 .header-logo {
-    padding-top: 20px;
+    margin-left:50px;
+padding-top: 20px;
 }
 
 .logo{
@@ -56,7 +48,6 @@ a{
     display: inline-block;
     margin-top: 32px;
     color: #333;
-    font-size: 13.5px;
 }
 
 .caret{
@@ -81,25 +72,36 @@ a{
 }
 
 .nav .navbar li a {
+     display: inline-block;
+     width: 70px;
+     height: 80px;
+     /*background-color: aliceblue;*/
+     text-align: center;
+     line-height: 80px;
+    text-decoration: none;
+ }
+ .nav .navbar li p {
     display: inline-block;
     width: 70px;
     height: 80px;
     /*background-color: aliceblue;*/
     text-align: center;
     line-height: 80px;
-    text-decoration: none;
+   text-decoration: none;
 }
 
-/*.nav  li a:hover{*/
-/*    color: #ef4238*/
-/*}*/
+.nav  li a:hover{
+   color: #ef4238;
+   cursor:pointer;
+}
 /*.nav li:active{*/
 /*     color: #fff;*/
 /*     background-color: #ef4238*/
 /* }*/
-.active a{
+.active p{
     background-color: #ef4238;
     color: white;
+    cursor:pointer;
 }
 /*.nav li a:visited{*/
 /*    color: #fff;*/
@@ -162,7 +164,7 @@ a{
     position: absolute;
     left: 180px;
     margin-top: 20px;
-    /*right: 40px;*/
+   /*right: 40px;*/
 }
 
 .user-info {
@@ -187,5 +189,10 @@ a{
     display: inline-block;
 }
 .user-avatar .caret{
-    margin-top: -20px;
+   margin-top: -20px;
+}
+.subnav {
+    height: 60px;
+    width: 100%;
+    background-color:  #47464a;
 }

@@ -1,0 +1,45 @@
+.subnav {
+    height: 60px;
+    width: 100%;
+    background-color:  #47464a;
+}
+
+/*.subnavbar {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    list-style: none;*/
+/*    background-color: darkolivegreen;*/
+/*}*/
+
+/*.subnavbar li a {*/
+/*    display: inline-block;*/
+/*    height: 60px;*/
+/*    width: 80px;*/
+/*    padding: 0px 40px;*/
+/*    line-height: 60px;*/
+/*}*/
+
+/*二级导航*/
+.subnav{
+    margin-top: 80px;
+}
+.subnav .navbar{
+    display: flex;
+    justify-content: center;
+}
+.subnav .navbar li a{
+    display: inline-block;
+    height: 60px;
+    width: 80px;
+    padding: 0px 40px;
+    line-height: 60px;
+    color: #999;
+    text-decoration: none;
+}
+/*.subnav .navbar li a:hover{*/
+/*    color: white;*/
+/*}*/
+.active1 a{
+    color: #ef4238 !important;
+}

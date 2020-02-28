@@ -1,0 +1,154 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top:120px ;
+}
+.tags-panel {
+    border: 1px solid #e5e5e5;
+    padding: 0 20px;
+    margin: 40px 0;
+    position: relative;
+}
+.tags-panel li, .tags-panel ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.tags-title {
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    color: #999;
+    font-size: 13px;
+}
+.tags-panel ul.tags {
+    margin-left: 50px;
+}
+.tags li a {
+    color: #333;
+    font-size: 13px;
+}
+.tags li {
+    border-radius: 14px;
+    padding: 2px 5px;
+    display: inline-block;
+    margin-left: 12px;
+}
+.tags li.active {
+    background: #f34d41;
+}
+.tags li.active  a{
+    color: white;
+}
+.tags-line {
+    padding: 10px 0!important;
+}
+.tags-line-border {
+    border-top: 1px dashed #e5e5e5;
+}
+
+/*影院列表样式*/
+
+.cinemas-list h2 {
+    font-size: 18px;
+    color: #333;
+    border-left: 4px solid #f03d37;
+    padding-left: 6px;
+    line-height: 18px;
+    margin: 0;
+}
+.cinemas-list .cinema-cell {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.cinemas-list .cinema-info {
+    display: inline-block;
+    max-width: 80%;
+}
+.cinemas-list .cinema-name {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.cinemas-list .cinema-address {
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+}
+.cinemas-list .buy-btn {
+    float: right;
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 36px;
+}
+.cinemas-list .buy-btn a {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background-color: #f03d37;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 10px -2px #f03d37;
+    box-shadow: 0 2px 10px -2px #f03d37;
+}
+.cinemas-list .price {
+    float: right;
+    font-size: 12px;
+    color: #999;
+    height: 45px;
+    line-height: 45px;
+}
+.cinemas-list .price .rmb {
+    margin-right: -4px;
+}
+.red {
+    color: #f03d37;
+}
+.cinemas-list .price .price-num {
+    font-size: 16px;
+    margin-right: -3px;
+    font-weight: 700;
+}
+
+/*分页样式*/
+.cinema-pager {
+    text-align: center;
+}
+.list-pager {
+    list-style: none;
+}
+.list-pager li {
+    display: inline-block;
+    height: 30px;
+    margin: 0 4px;
+    border: 1px solid #d8d8d8;
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+}
+
+.list-pager li.active {
+    border-color: #ef4238;
+    background-color: #ef4238;
+}
+.list-pager li.active a {
+    color: #fff;
+}
+.list-pager a {
+    display: block;
+    padding: 0 12px;
+    color: #333;
+}
+.list-pager a {
+    font-size: 14px;
+}
+.list-pager li.sep {
+    padding: 0 12px;
+}

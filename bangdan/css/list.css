@@ -2,15 +2,19 @@
     margin: 0;
     padding: 0;
 }
-/*body{*/
-/*    display: block;*/
-/*}*/
+a{
+    text-decoration: none;
+}
 .header {
     height: 80px;
     width: 100%;
     /*background-color: red;*/
     display: flex;
     justify-content: center;
+    position: fixed;
+    background-color: white;
+    margin-top: -80px;
+    z-index: 15;
 }
 /*.headerfixed{*/
 /*    position: fixed;*/
@@ -18,6 +22,7 @@
 .header-inner {
     display: flex;
     flex-direction: row;
+
 }
 
 .header-logo {
@@ -205,6 +210,11 @@ padding-top: 20px;
 /*    padding: 0px 40px;*/
 /*    line-height: 60px;*/
 /*}*/
+
+/*二级导航*/
+.subnav{
+    margin-top: 80px;
+}
 .subnav .navbar{
     display: flex;
     justify-content: center;
@@ -218,16 +228,15 @@ padding-top: 20px;
     color: #999;
     text-decoration: none;
 }
-.subnav .navbar li a:hover{
-    color: white;
-}
+/*.subnav .navbar li a:hover{*/
+/*    color: white;*/
+/*}*/
 .active1 a{
-    color: #ef4238;
-    background-color: red;
+    color: #ef4238 !important;
 }
 .container {
     width: 1200px;
-    height: 2648px;
+    /*height: 2648px;*/
     margin: 0 auto;
     /*background-color: deeppink;*/
 }
@@ -239,7 +248,7 @@ padding-top: 20px;
 .main {
     width: 950px;
     margin: 70px auto auto;
-    height: 2000px;
+    /*height: 2000px;*/
     /*background-color: slategray;*/
 }
 .board-wrapper{
