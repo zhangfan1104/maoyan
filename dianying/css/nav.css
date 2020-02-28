@@ -161,6 +161,7 @@ a{
     display: inline-block;
     position: absolute;
     left: 180px;
+    cursor:pointer;
     margin-top: 20px;
     /*right: 40px;*/
 }

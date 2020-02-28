@@ -162,6 +162,7 @@ padding-top: 20px;
     position: absolute;
     left: 180px;
     margin-top: 20px;
+    cursor:pointer;
    /*right: 40px;*/
 }
 
@@ -227,6 +228,7 @@ padding-top: 20px;
     line-height: 60px;
     color: #999;
     text-decoration: none;
+    cursor:pointer;
 }
 /*.subnav .navbar li a:hover{*/
 /*    color: white;*/

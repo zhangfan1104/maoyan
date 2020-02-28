@@ -38,8 +38,6 @@ a{
     /*background-size: contain;*/
     vertical-align:bottom;
     display: block;
-
-
 }
 .city-container {
     width: 70.73px;
@@ -163,6 +161,7 @@ a{
     position: absolute;
     left: 180px;
     margin-top: 20px;
+    cursor:pointer;
     /*right: 40px;*/
 }
 
