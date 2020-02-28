@@ -26,7 +26,8 @@ a{
 }
 
 .logo{
-    height: 80px;
+    margin-left: 100px;
+    height: 70px;
     width: 133px;
     background:url("../tp/logo (2).png")no-repeat;
     /*background-color: #e5e5e5;*/
@@ -64,6 +65,7 @@ a{
 }
 .nav {
     width: 320px;
+    margin-left: 0px;
     /* background-color: #000; */
 }
 .navbar {
@@ -79,7 +81,7 @@ a{
     /*background-color: aliceblue;*/
     text-align: center;
     font-size: 18px;
-    line-height: 39px;
+    line-height: 36px;
     text-decoration: none;
 }
 
@@ -99,7 +101,7 @@ a{
 /*    background-color: #ef4238*/
 /*}*/
 .app-download {
-    margin-left: 100px;
+    margin-left: 50px;
     width: 132px;
     height: 80px;
 }
@@ -142,7 +144,7 @@ a{
     display: inline-block;
     position: relative;
     margin-top: 16px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .search:active{
     outline: none;
@@ -159,7 +161,7 @@ a{
     background-image: url("../tp/搜索.png");
     display: inline-block;
     position: absolute;
-    left: 200px;
+    left: 179px;
     cursor:pointer;
     margin-top: 16px;
     /*right: 40px;*/
@@ -171,7 +173,7 @@ a{
     padding: 0px 10px;
     border: 1px solid transparent;
     /*background-color: coral;*/
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .user-avatar{
     width: 59px;
