@@ -1,6 +1,14 @@
 $(function(){
-    
-    $("#uuu2").hide();
+    var z = window.location.search;   //location.search是从当前URL的?号开始的字符串
+    var zz = z.substring (3,4);
+    if(zz == 0 ){
+        $("#uu2").hide();
+        $("#dd").addClass("red");
+        $("#xx").removeClass("red");
+    }
+    if(zz == 1 ){
+        $("#uuu2").hide();
+    }
 
     $("#dd").click(function(){
         $("#dd").addClass("red");

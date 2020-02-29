@@ -280,12 +280,14 @@ to {transform:rotate(0deg);
     border: 1px solid transparent;
     /*background-color: coral;*/
     margin-left: 10px;
+    position: relative;
 }
 .user-avatar{
     width: 59px;
     height: 100%;
     padding:0 10px;
     display: inline-block;
+    cursor:pointer;
 }
 .user-avatar img{
     margin-top: 20px;
@@ -296,6 +298,32 @@ to {transform:rotate(0deg);
 }
 .user-avatar .caret{
    margin-top: -20px;
+}
+.user-menu{
+    /* display: none; */
+    position: relative;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    /* text-align: right; */
+    padding: 15px 10px 5px;
+    text-align: center;
+    width: 59px;
+    top: -5px;
+    border-top: 1px solid transparent;
+}
+.user-menu li {
+    margin-bottom: 6px;
+    list-style-type:none;
+}
+.user-menu li>a {
+    color: #999;
+    display: block;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .subnav {
     height: 60px;

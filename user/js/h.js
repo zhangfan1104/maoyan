@@ -1,6 +1,7 @@
 $(function(){
     $(".city-list").hide();
     $(".download-icon").hide();
+    $("#yes").hide();
 
 
     $(".city-selected").mouseenter(function(){
@@ -40,4 +41,21 @@ $(function(){
         $("#xz2").removeClass("xz");
     });
 
+    $(".user-avatar").mouseenter(function(){
+        $("#yes").show();
+        $(".user-avatar").css({"border-left":"1px solid #d8d8d8",
+                            "border-right":"1px solid #d8d8d8",
+                            "border-bottom":"2px solid rgb(255, 255, 255)"});
+        $("#xz3").addClass("xz");
+        $("#xz3").addClass("xxz");
+        $("#xz3").removeClass("xzz");
+    });
+
+    $(".user-info").mouseleave(function(){
+        $("#yes").hide(); 
+        $(".user-avatar").css("border","0px");
+        $("#xz3").addClass("xzz");
+        $("#xz3").removeClass("xxz");
+        $("#xz3").removeClass("xz");
+    });
 });
