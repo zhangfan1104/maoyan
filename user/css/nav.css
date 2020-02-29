@@ -2,14 +2,14 @@ a{
     text-decoration: none;
 }
 .header {
-    height: 75px;
+    height: 80px;
     width: 100%;
     /* background-color: red; */
     display: flex;
     justify-content: center;
     position: fixed;
     background-color: white;
-    z-index: 1;
+    z-index: 150;
     margin-top: -10px;
     border-bottom:1px solid rgba(204, 204, 204, 0.842);
 }
@@ -19,32 +19,32 @@ a{
 .header-inner {
     display: flex;
     flex-direction: row;
-
+    margin-left: 0px;
 }
 
 .header-logo {
-    padding-top: 18px;
+    padding-top: 20px;
 }
 
 .logo{
-    margin-left: 100px;
-    height: 70px;
+    height: 80px;
     width: 133px;
     background:url("../tp/logo (2).png")no-repeat;
     /*background-color: #e5e5e5;*/
     /*background-size: contain;*/
+    /* vertical-align:bottom; */
     display: block;
 }
 .city-container {
     width: 70.73px;
-    margin: 0 7px;
+    margin: 0 8px;
     height: 80px;
-    z-index: 111;
+    /* z-index: 111; */
     /*background-color: antiquewhite;*/
 }
 .city-selected{
     position: absolute;;
-    height: 74px;
+    height: 80px;
     padding:0 12px;
     /* border-bottom: 1px solid rgba(255, 255, 255, 0);  */
     /*border-width: 0 1px;*/
@@ -55,7 +55,7 @@ a{
 
 .city-name{
     display: inline-block;
-    margin-top: 29px;
+    margin-top: 32px;
     color: #333;
     font-size: 14px;
     /* background-color: rgb(40, 177, 187); */
@@ -69,7 +69,7 @@ a{
     height: 330px;
     overflow-y: scroll;
     left: 0px;
-    top: 75px;
+    top: 80px;
     /* display: none;  */
 }
 .city-list-header {
@@ -149,24 +149,25 @@ to {transform:rotate(0deg);
 
 
 .nav {
-    width: 320px;
-    margin-left: 0px;
+    width: 280px;
+    height: 80px;
     /* background-color: #000; */
 }
 .navbar {
     display: flex;
     flex-direction: row;
     list-style: none;
-    /*background-color: yellow;*/
+    /* background-color: yellow; */
 }
 
 .nav .navbar li a {
     display: inline-block;
     width: 70px;
+    height: 80px;
     /*background-color: aliceblue;*/
-    text-align: center;
-    font-size: 18px;
-    line-height: 36px;
+    /* text-align: start; */
+    /* font-size: 18px; */
+    line-height: 50px;
     text-decoration: none;
 }
 
@@ -186,13 +187,13 @@ to {transform:rotate(0deg);
 /*    background-color: #ef4238*/
 /*}*/
 .app-download {
-    margin-left: 50px;
+    margin-left: 70px;
     width: 132px;
     height: 80px;
 }
 .app-download a{
     display: block;
-    padding-top: 24px;
+    padding-top: 30px;
     padding-left: 14px;
     width: 100%;
     height: 100%;
@@ -228,8 +229,8 @@ to {transform:rotate(0deg);
     padding: 0 40px 0 20px;
     display: inline-block;
     position: relative;
-    margin-top: 16px;
-    margin-left: 0px;
+    margin-top: 22px;
+    /* margin-left: 0px; */
 }
 .search:active{
     outline: none;
@@ -246,9 +247,9 @@ to {transform:rotate(0deg);
     background-image: url("../tp/搜索.png");
     display: inline-block;
     position: absolute;
-    left: 179px;
+    left: 180px;
     cursor:pointer;
-    margin-top: 16px;
+    margin-top: 22px;
     /*right: 40px;*/
 }
 
@@ -258,7 +259,7 @@ to {transform:rotate(0deg);
     padding: 0px 10px;
     border: 1px solid transparent;
     /*background-color: coral;*/
-    margin-left: 0px;
+    margin-left: 10px;
 }
 .user-avatar{
     width: 59px;
@@ -267,7 +268,7 @@ to {transform:rotate(0deg);
     display: inline-block;
 }
 .user-avatar img{
-    margin-top: 16px;
+    margin-top: 20px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
