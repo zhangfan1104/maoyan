@@ -188,6 +188,36 @@ to {transform:rotate(0deg);
     margin-left: 70px;
     width: 132px;
     height: 80px;
+    position: relative;
+}
+.aap{
+    height: 80px;
+}
+.download-icon {
+    /* display: none; */
+    width: 130px;
+    height: 165px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background-color: #fff;
+    background-image: url("../img/222.png");
+    background-position: 24px 14px;
+    background-size: 82px 82px;
+    background-repeat: no-repeat;
+    border: 1px solid #dcd4d7;
+    border-top: 0;
+}
+.download-icon p {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+.download-icon .down-title {
+    margin-top: 115px;
+    margin-bottom: 3px;
+    color: #000;
 }
 .app-download a{
     display: block;
