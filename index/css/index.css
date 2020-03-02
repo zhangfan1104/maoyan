@@ -395,7 +395,7 @@ a.aa:hover{
     /*overflow: hidden;*/
     width: 100%;
     margin-top: 23px;
-    /*background-color: #1d7dde;*/
+    /* background-color: #1d7dde; */
 }
 .panel-content ul{
     list-style: none;
@@ -466,6 +466,7 @@ a.aa:hover{
     /*white-space: nowrap;*/
     font-size: 16px;
     color: #333;
+    /* background-color: #000; */
     /*vertical-align: top;*/
 }
 .ranking-num-info{

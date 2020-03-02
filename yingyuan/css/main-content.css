@@ -43,6 +43,21 @@
 .tags li.active  a{
     color: white;
 }
+a.cinema-name:hover{
+    color: red!important;
+    cursor: pointer;
+}
+a.ac:hover{
+    color: red!important;
+    cursor: pointer;
+}
+/* a:active{
+    border-radius: 30px;
+    border:5px solid #f34d41;
+    background-color: #f34d41;
+    color: #fff!important;
+    left: -5px;
+} */
 .tags-line {
     padding: 10px 0!important;
 }
@@ -76,6 +91,7 @@
     color: #333;
     margin-bottom: 10px;
 }
+
 .cinemas-list .cinema-address {
     font-size: 14px;
     line-height: 14px;
