@@ -35,3 +35,39 @@ function ff(){
 function bb(){
     document.getElementById("kk2").style.borderColor = "rgba(66, 66, 66, 0.295)";
 }
+
+$(function () {
+     
+        
+        // $.post(
+        //     'http://localhost:8089/User/UserLogin' ,
+        //     $("#dlf").serialize(),  
+        //     function (resData) {       
+        //        alert(resData);    
+        //     }
+        // );
+        // $.ajax({
+        //     type: "Get",
+        //     url: 'http://localhost:8089/User/UserLogin',
+        //     date:{uphone:uphone,upassword:upassword},
+        //     // cache: false,
+        //     // error: function () { },
+        //     // jsonp: "callback",
+        //     // dataType: "jsonp",
+        //     success: function (result) {
+        //         alert(result.info); 
+        //     }
+        // });
+        
+         $("#dlb").click(function () { 
+             var aj = new XMLHttpRequest();
+             var uphone = $(".u30").val();
+             var upassword = $(".u31").val();
+             var aaa = uphone +'/'+ upassword;
+             aj.open('get','http://localhost:8089/User/UserLogin?'+aaa);
+             aj.send();
+             aj.onload = function(){
+                 alert(aj.responseText);
+             }
+    });
+})

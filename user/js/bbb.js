@@ -128,4 +128,23 @@ $(function(){
              $("#fir").animate({"width":"0px"},500);
          }
      });
+
+     
+     $("#zcb").click(function () { 
+         $.post(
+             'http://localhost:8089/User/UserRegistration' ,
+             $("#zcf").serialize(),  
+             function (resData) {          
+                    if (resData.code != '') {
+                     bootbox.alert("注册成功");
+                 } else {
+                     bootbox.alert("注册失败"+ '<a href="denglu.html">请登录</a>')
+                 }
+
+             }
+         );
+    });  
+
+    
+
 });
