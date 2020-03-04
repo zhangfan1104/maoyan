@@ -117,9 +117,12 @@ a.ac:hover{
 .movie-list {
     margin: -29px 0 20px -25px;
 }
+.movie-list .active2{
+    display: block;
+}
 .movie-list dd {
     margin: 30px 0 0 30px;
-    display: inline-block;
+    display: none;
     vertical-align: top;
     position: relative;
 }

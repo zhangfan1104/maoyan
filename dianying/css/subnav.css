@@ -43,3 +43,6 @@
 .active1 a{
     color: #ef4238 !important;
 }
+.active{
+    font-size: 18px;
+}
