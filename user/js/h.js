@@ -15,6 +15,27 @@ $(function(){
         $("#xz1").removeClass("xzz");
     });
     
+    var l = window.location.search;   
+    var ll = l.substring (1,l.length);
+
+
+    $("#sy").click(function () { 
+        window.location.href="../index/index.html?"+ll;
+
+    });    
+    $("#dy").click(function () { 
+        window.location.href="../dianying/film.html?"+ll;
+
+    });
+    $("#yy").click(function () { 
+        window.location.href="../yingyuan/cinema.html?"+ll;
+
+    });
+    $("#bd").click(function () { 
+        window.location.href="../bangdan/pop%20list.html?"+ll;
+
+    });
+    
     $(".city-container").mouseleave(function(){
         $(".city-selected").css("border","0px");
         $(".city-list").hide();

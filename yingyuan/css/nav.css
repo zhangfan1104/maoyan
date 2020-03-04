@@ -19,6 +19,10 @@ a{
     border-bottom:1px solid rgba(204, 204, 204, 0.842);
 
 }
+
+.nav .navbar li:hover{
+    cursor:pointer;
+}
 /*.headerfixed{*/
 /*    position: fixed;*/
 /*}*/

@@ -1,4 +1,6 @@
+var zc;
 $(function(){
+
     $(".rf").hide();
 
      $("#xy").click(function(){
@@ -26,6 +28,7 @@ $(function(){
              $(this).css("border-color","rgba(136, 132, 132, 0.699)");
              $("#f1").hide();
              $("#r1").show();
+             zc = "pn";
          }else{
              $(this).css("border-color"," rgb(243, 101, 19)");
              $("#r1").hide();
@@ -39,6 +42,7 @@ $(function(){
              $(this).css("border-color","rgba(136, 132, 132, 0.699)");
              $("#f2").hide();
              $("#r2").show();
+             zc += "yzm"; 
          }else{
              $(this).css("border-color"," rgb(243, 101, 19)");
              $("#r2").hide();
@@ -55,6 +59,7 @@ $(function(){
                  $("#f6").hide();
                  $("#f3").hide();
                  $("#r3").show();
+                zc += "pw1"; 
                  }else{
                      $(this).css("border-color"," rgb(243, 101, 19)");
                      $("#f6").hide();
@@ -89,6 +94,7 @@ $(function(){
              $("#f4").hide();
              $("#f5").hide();
              $("#r4").show();
+             zc += "pw2";
              }else{
                  $(this).css("border-color"," rgb(243, 101, 19)");
                  $("#r4").hide();
@@ -130,21 +136,24 @@ $(function(){
      });
 
      
+
      $("#zcb").click(function () { 
-         $.post(
-             'http://localhost:8089/User/UserRegistration' ,
-             $("#zcf").serialize(),  
-             function (resData) {          
-                    if (resData.code != '') {
-                     bootbox.alert("注册成功");
-                 } else {
-                     bootbox.alert("注册失败"+ '<a href="denglu.html">请登录</a>')
-                 }
+        if(zc == "pnyzmpw1pw2"){
+            var aj = new XMLHttpRequest();
+            var uphone = $("#ph").val();
+            var upassword = $("#pw1").val();
+            var aaa = uphone +'/'+ upassword;
+            aj.open('get','http://localhost:8089/User/UserLogin?'+aaa);
+            aj.send();
+            aj.onload = function(){
+                window.location.href="denglu.html"; 
+            }
+        }else{
+            alert("请输入正确信息！");
+        }
+        
+}); 
 
-             }
-         );
-    });  
 
-    
 
 });

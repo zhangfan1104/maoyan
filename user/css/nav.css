@@ -160,6 +160,10 @@ to {transform:rotate(0deg);
     /* background-color: yellow; */
 }
 
+.nav .navbar li:hover{
+    cursor:pointer;
+}
+
 .nav .navbar li a {
     display: inline-block;
     width: 70px;

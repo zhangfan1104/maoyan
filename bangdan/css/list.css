@@ -25,6 +25,9 @@ a{
 
 }
 
+.nav .navbar li:hover{
+    cursor:pointer;
+}
 .header-logo {
 padding-top: 20px;
 }

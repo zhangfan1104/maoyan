@@ -296,6 +296,9 @@ a.aa:hover{
     color: rgb(231, 43, 43);
     font-size: 18px;
 }
+.nav .navbar li:hover{
+    cursor:pointer;
+}
 .user-info {
     width: 78px;
     height: 80px;

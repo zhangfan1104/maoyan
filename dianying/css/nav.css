@@ -26,6 +26,9 @@ a{
     flex-direction: row;
 
 }
+.nav .navbar li:hover{
+    cursor:pointer;
+}
 
 .header-logo {
     padding-top: 20px;
