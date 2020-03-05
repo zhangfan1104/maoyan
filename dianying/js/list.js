@@ -26,7 +26,7 @@ function showlist1() {
     for (var  i=0; i<tabs1.length;i++){
         if (tabs1[i]===this) {
             tabs1[i].className="active1";
-            list1[i].className="active2";
+            list1[i].className="active2";  
         }
         else {
             tabs1[i].className = "";

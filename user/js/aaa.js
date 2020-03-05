@@ -64,15 +64,15 @@ $(function () {
              var uphone = $(".u30").val();
              var upassword = $(".u31").val();
              var aaa = uphone +'/'+ upassword;
-             if(uphone == ''){
-                window.location.href="../index/index.html"
-             }else{
-                window.location.href="../index/index.html?"+11
-             }
+            //  if(uphone == ''){
+            //     window.location.href="../index/index.html"
+            //  }else{
+            //     window.location.href="../index/index.html?"+11
+            //  }
              aj.open('get','http://localhost:8089/User/UserLogin?'+aaa);
              aj.send();
              aj.onload = function(){
-                window.location.href="../index/index.html?l=aj.responseText;"
+                window.location.href="../index/index.html?;"+aj.responseText
              }
     });
 })

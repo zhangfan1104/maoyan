@@ -143,7 +143,7 @@ $(function(){
             var uphone = $("#ph").val();
             var upassword = $("#pw1").val();
             var aaa = uphone +'/'+ upassword;
-            aj.open('get','http://localhost:8089/User/UserLogin?'+aaa);
+            aj.open('get','http://localhost:8089/User/UserRegistration?'+aaa);
             aj.send();
             aj.onload = function(){
                 window.location.href="denglu.html"; 
