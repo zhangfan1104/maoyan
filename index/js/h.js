@@ -7,7 +7,16 @@ $(function(){
     var l = window.location.search;   
     var ll = l.substring (1,l.length);
 
-
+    
+       
+        $.ajax({
+            url:" " ,
+            
+            success: function(result){
+               $("#checkResult").html(result);
+            }
+         });
+    
    
 
     if(ll == ''){

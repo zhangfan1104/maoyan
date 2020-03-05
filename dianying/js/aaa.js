@@ -10,12 +10,13 @@ $(function(){
     $("#tabs1").click(function(){
        
         var na = $(".active1").children().text();
-        var aj = new XMLHttpRequest();
-        aj.open('get','http://localhost:8089/User/UserLogin?'+na);
-        aj.send();
-        aj.onload = function(){
-            aj.responseText
-         }
+        $.ajax({
+            url:" " ,
+            data:{" ":na},
+            success: function(result){
+               $("#checkResult").html(result);
+            }
+         });
     });
             //  var aj = new XMLHttpRequest();
             //  var na = $(".active1").find("a").val();

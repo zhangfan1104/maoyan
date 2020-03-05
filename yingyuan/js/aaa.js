@@ -7,4 +7,16 @@ $(function(){
         $(this).siblings().children().addClass("ac");
 
     });
+
+    $("#tabs1").click(function(){
+       
+        var na = $(".active1").children().text();
+        $.ajax({
+            url:" " ,
+            data:{" ":na},
+            success: function(result){
+               $("#checkResult").html(result);
+            }
+         });
+    });
 });
