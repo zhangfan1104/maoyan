@@ -139,20 +139,27 @@ $(function(){
 
      $("#zcb").click(function () { 
         if(zc == "pnyzmpw1pw2"){
+            // window.location.href="../user/denglu.html";
+            // $(location).attr('href', '../user/denglu.html');
+            var newWeb = window.open('_blank');
+                newWeb.location='denglu.html';
             var aj = new XMLHttpRequest();
             var uphone = $("#ph").val();
             var upassword = $("#pw1").val();
             var aaa = uphone +'/'+ upassword;
             aj.open('get','http://localhost:8089/User/UserRegistration?'+aaa);
             aj.send();
-            aj.onload = function(){
-                window.location.href="denglu.html"; 
-            }
+            // aj.onload = function(){
+                
+            // }
         }else{
             alert("请输入正确信息！");
         }
-        
+
 }); 
+
+        
+
 
 
 

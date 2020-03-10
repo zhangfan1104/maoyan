@@ -72,7 +72,8 @@ $(function () {
              aj.open('get','http://localhost:8089/User/UserLogin?'+aaa);
              aj.send();
              aj.onload = function(){
-                window.location.href="../index/index.html?;"+aj.responseText
+                window.location.href="../index/index.html?;"+aj.responseText;
              }
+             
     });
 })
